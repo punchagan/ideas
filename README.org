@@ -1,0 +1,61 @@
+#+STARTUP: indent
+
+This repository is inspired by [[https://github.com/captn3m0/ideas/][captn3m0's ideas repository]].
+
+I'm going to use it as a single place to dump my ideas in.  I'm also going to
+use this document to think and ponder about the ideas I have, before diving in
+straight, to build things.
+
+* WhatsApp thread reader
+
+WhatsApp is one of the most widely used chat services, yet sorely missing some
+features that would make it much easier to work with.
+
+[[https://zulip.com/help/streams-and-topics][Zulip like topics]] could make it easier to follow some groups where I don't want
+to actively participate, but only want to catch-up on some interesting
+discussions.
+
+The lowest hanging fruit woudl be to be able to use the "reply to" option and
+create something like a forum thread with multiple levels of heirarchy.  A
+stretch goal would be to be able to mark even messages that weren't sent as
+replies to other messages to be marked as replies, when they are, using some
+kind of text analysis.
+
+Using some smart topic/title generation to label the thread or topic would also
+be interesting.  Similarly, generating a summary would also be fun.  But,
+sending out all these texts to an external AI model isn't something that I
+wouldn't be comfortable doing.  Is there a browser local way to do this?
+
+It could also be interesting to locally mark some topics/threads as unread or
+important and to be able to come back to them later.
+
+It could also be interesting to add search features on top of this to allow
+searching for messages with links, attachments, etc., or links sent by a
+specific person within a specified time-period, etc.
+
+This could be built as a browser extension that works on top of the WhatsApp
+Web UI. Could we access the local storage/IndexDB?
+
+Allowing users to export a specific topic/thread or a date-range of messages
+would be very useful. Generating a HTML or markdown page could be useful for
+newsletter authors or bloggers.  Downloading media and files for a specific
+duration or sent by a specific user would be useful too.  I've built some of
+this "export/share/download" functionality as [[https://github.com/punchagan/wa-share][a PWA]] that uses a WhatsApp chat
+export file.  But, the exported chat file doesn't have enough metadata to
+create the thread reader discussed here.
+
+* Substack/Newsletter to PDF/eBook
+
+Lot of people use Substack to write stuff, these days. It would be nice to be
+able to archive these posts, for future, since these things could disappar. Or
+having them as a PDF/eBook is sometimes handy.
+
+If it was a simple site, using a web archival tool like ~wget~ mirror would've
+been enough, but Substack's UI is only JS friendly. We'll need a browser like
+tool to be able to download and archive all the posts. It would be useful to
+specify a time duration or a topic filter for posts. (Not sure if Substack
+newsletters have tags of any kind).
+
+It could be easier to build a tool for the writers using the export
+functionality of Substack, but it might be more generally useful to build this
+tool using the published data of a substack.
