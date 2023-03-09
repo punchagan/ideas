@@ -1,12 +1,27 @@
 #+STARTUP: indent
 
-This repository is inspired by [[https://github.com/captn3m0/ideas/][captn3m0's ideas repository]].
+** Introduction
+:PROPERTIES:
+:TOC:      :ignore this
+:END:
 
 I'm going to use it as a single place to dump my ideas in.  I'm also going to
 use this document to think and ponder about the ideas I have, before diving in
 straight, to build things.
 
-* WhatsApp thread reader
+This repository is inspired by [[https://github.com/captn3m0/ideas/][captn3m0's ideas repository]].
+
+** Table of Contents
+:PROPERTIES:
+:TOC:      :include all :ignore this
+:END:
+
+:CONTENTS:
+- [[#whatsapp-thread-reader][WhatsApp thread reader]]
+- [[#substacknewsletter-to-pdfebook][Substack/Newsletter to PDF/eBook]]
+:END:
+
+** WhatsApp thread reader
 
 WhatsApp is one of the most widely used chat services, yet sorely missing some
 features that would make it much easier to work with.
@@ -44,7 +59,7 @@ this "export/share/download" functionality as [[https://github.com/punchagan/wa-
 export file.  But, the exported chat file doesn't have enough metadata to
 create the thread reader discussed here.
 
-* Substack/Newsletter to PDF/eBook
+** Substack/Newsletter to PDF/eBook
 
 Lot of people use Substack to write stuff, these days. It would be nice to be
 able to archive these posts, for future, since these things could disappar. Or
@@ -59,3 +74,8 @@ newsletters have tags of any kind).
 It could be easier to build a tool for the writers using the export
 functionality of Substack, but it might be more generally useful to build this
 tool using the published data of a substack.
+
+** COMMENT Local Variables
+# Local Variables:
+# before-save-hook: org-make-toc
+# End:
