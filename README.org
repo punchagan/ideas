@@ -5,9 +5,13 @@
 :TOC:      :ignore this
 :END:
 
-I'm going to use it as a single place to dump my ideas in.  I'm also going to
-use this document to think and ponder about the ideas I have, before diving in
-straight, to build things.
+A single place to dump my ideas.  It is a repository of ideas in the public
+domain, that anyone can use and implement.  I'm also going to use this document
+to think and ponder about the ideas, to stop myself from diving straight in and
+building something out...
+
+If there are similar or existing projects related to the ideas listed here,
+feel free to send a PR with a link to the project.
 
 This repository is inspired by [[https://github.com/captn3m0/ideas/][captn3m0's ideas repository]].
 
