@@ -19,6 +19,7 @@ This repository is inspired by [[https://github.com/captn3m0/ideas/][captn3m0's 
 :CONTENTS:
 - [[#whatsapp-thread-reader][WhatsApp thread reader]]
 - [[#substacknewsletter-to-pdfebook][Substack/Newsletter to PDF/eBook]]
+- [[#audio-indexer-and-store][Audio Indexer and Store]]
 :END:
 
 ** WhatsApp thread reader
@@ -74,6 +75,134 @@ newsletters have tags of any kind).
 It could be easier to build a tool for the writers using the export
 functionality of Substack, but it might be more generally useful to build this
 tool using the published data of a substack.
+
+** Audio Indexer and Store
+
+For photos and videos, I take the lazy route and let Google store them for
+me. Google arranges them nicely (after running their algos on my data :shrug:),
+and lets me search by person, by place, etc.
+
+I'd like to have a similar indexer and storage for my audio files. There are
+some note taking apps (like Google Keep) that let you take audio notes and
+arrange them in a searchable fashion. But, I'd also like something for audio
+files shared with me like song covers recorded and shared by friends, jam
+sessions, etc. or voice notes sent by friends and family.
+
+It'd be nice to have something self hosted. It'd be fun to play with the
+bleeding edge in this field to see what's out there, and how easy or difficult
+it is to setup something that works.
+
+** COMMENT Crowd-sourced stats and highlights for Ultimate games
+
+This is a pre-cursor and training data for the automated idea.
+
+** COMMENT Automated Stats and Highlights for Ultimate games
+
+I've this crazy idea that I've been wanting for many moons now. Would it be
+possible to build automated stats for a game of Frisbee from a video?
+
+- Who was on the line
+- Who had how many scores, drops, assists, Ds
+
+for starters..
+
+This is from analyzing a game video?
+
+Nine: If we can augment intelligence with fallback human input, will be cool
+
+uc: Better solution would be having wearable on players wrist and track
+positions and motions
+
+Punch: No, I don't want to change the way the game is played.
+
+Nine: Learn to detect players' faces and jersey numbers (pre fed before a
+game). Learn to differentiate between a replay and live action. And learn to
+detect drops, scores, D's.
+
+uc: Disambiguate these
+
+- what type of games., casual / professional / both
+- video recorded by single camera single location or multiple cameras with close shots of all major events
+- what is the min guaranteed resolution of video
+- do players always wear jerseys with visible numbers
+- guessing the solution should be independent of lighting and type of court etc
+- do u have control over setting up cameras and recording of matches
+- do u have further requirements of tracking player paths and length of player runs in future
+- guessing u don't need stats in realtime
+
+Punch: I'm thinking of an MVP. I don't want a solution that works 100% of the
+time, without manual intervention.
+
+Punch: It could be something that asks people to confirm if things are not 100%
+clear. Was this a drop? Is this a score? Is this person Sivaraman? etc.
+
+Punch: So, I guess let's say we want something that works for AUDL or US
+college championships. They are always played on :rugby: fields,
+outdoors. Everyone has numbers. Both team jerseys are distinguishable easily
+(light vs dark). Videos are at least full HD. Important events often have close
+ups or replays.
+
+Punch: No control over :camera: initially. We are using already available
+footage.
+
+Punch: Player paths, disc paths, etc would be something I'd be interested in
+later. Also which part of field has higher percentage of turnovers, what kind
+of throws a player makes from what part of the field, etc etc. But MVP wouldn't
+have all this obviously.
+
+Nine: It's all in the percentages bro
+
+Punch: A simpler idea for this which might be an even cheaper MVP would be to
+allow just recording the passes and drops orally. Like commentary. And convert
+that to stats.
+
+Nine: True. Cheap way to generate labelled data too
+
+Punch: Also, I don't think the market is super big for it to really pay. Just
+in case folks were wondering.
+
+uc: Hmm.. Many of the deep learning people tracking algos work on centroids and
+distinctive features.. Both are difficult in sports and that too ultimate.. But
+seems to be the first thing to try
+
+Punch: It needn't be deep learning alone maybe? Like object detection + frame
+tracking + deep learning
+
+uc: Deep learning algos are based on the detection and frame tracking as well
+
+uc:
+<https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/>
+basic centroid tracking
+
+uc: But post this.. U will have tougher tasks of identifying drops, passes..
+
+Punch: Right, so this isn't necessarily deep learning. It can be if we want it
+to. For the bounding box generation. Or it could just use simpler object
+detection algos. This is what I meant above. :+1:
+
+uc: Right.. But might be better to get deep learning algos if avlbl directly..
+
+Punch: Do you think I'll be able to make a significant dent on this problem if
+I work on it for a year?
+
+uc: Year is a lot of time bro.. U will make dent if u work for a month
+
+Punch: Umm, but it's a very hard problem I thought… :thinking:
+
+uc: Hard is dependent on the level of accuracy and consistency u want to
+achieve.. But I think its possible to fine tune.. If u can limit ur scope
+
+Punch: The MVP I described above is my scope, let's say.
+
+uc: For MVP I think it's possible within 1 month to achieve human and disc
+tracking using tweaks of already avlbl algos and identifying some events like
+number of times each player touches the disc types. .. Then I think you will
+need time to setup a learning model that takes human augmentation to understand
+different events and recognize patterns.. This might need more time for
+development as well as augmentation
+
+Punch: I'll be really psyched if I can get something that kinda works, in a
+month. Cool!
 
 ** COMMENT Local Variables
 # Local Variables:
