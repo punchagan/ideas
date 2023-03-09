@@ -50,7 +50,7 @@ searching for messages with links, attachments, etc., or links sent by a
 specific person within a specified time-period, etc.
 
 This could be built as a browser extension that works on top of the WhatsApp
-Web UI. Could we access the local storage/IndexDB?
+Web UI. It is possible to [[https://mazzo.li/posts/whatsapp-backup.html][access the locally stored data]] from the IndexedDB.
 
 Allowing users to export a specific topic/thread or a date-range of messages
 would be very useful. Generating a HTML or markdown page could be useful for
