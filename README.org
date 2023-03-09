@@ -76,6 +76,10 @@ It could be easier to build a tool for the writers using the export
 functionality of Substack, but it might be more generally useful to build this
 tool using the published data of a substack.
 
+Supporting gifs would be great! PDFs don't really support GIFs, do they?
+
+A wrapper on top of something like [[https://github.com/danburzo/percollate][percollate]] would be good enough?
+
 ** Audio Indexer and Store
 
 For photos and videos, I take the lazy route and let Google store them for
