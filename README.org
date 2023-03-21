@@ -24,7 +24,7 @@ This repository is inspired by [[https://github.com/captn3m0/ideas/][captn3m0's 
 - [[#whatsapp-thread-reader][WhatsApp thread reader]]
 - [[#substacknewsletter-to-pdfebook][Substack/Newsletter to PDF/eBook]]
 - [[#audio-indexer-and-store][Audio Indexer and Store]]
-- [[#github-action-to-announce-new-posts][GitHub Action to announce new posts]]
+- [[#heavy_check_mark-github-action-to-announce-new-posts][:heavy_check_mark: GitHub Action to announce new posts]]
 :END:
 
 ** WhatsApp thread reader
@@ -101,7 +101,7 @@ It'd be nice to have something self hosted. It'd be fun to play with the
 bleeding edge in this field to see what's out there, and how easy or difficult
 it is to setup something that works.
 
-** GitHub Action to announce new posts
+** :heavy_check_mark: GitHub Action to announce new posts
 Zapier, IFTTT, etc let users announce new posts on Twitter, etc. But, they are
 based on RSS feeds. This makes them not as configurable as they could be -- for
 instance, adding hashtags isn't very easy.
@@ -109,6 +109,8 @@ instance, adding hashtags isn't very easy.
 It should be possible to write a GitHub action that extracts the required
 fields from a static site's content repo, and creates a new tweet/update that
 can be posted to social media using existing GitHub actions.
+
+*UPDATE*: Created a [[https://github.com/punchagan/share-post-action][GitHub Action]] using GPT-4.
 
 ** COMMENT Crowd-sourced stats and highlights for Ultimate games
 
