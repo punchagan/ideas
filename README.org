@@ -25,6 +25,7 @@ This repository is inspired by [[https://github.com/captn3m0/ideas/][captn3m0's 
 - [[#substacknewsletter-to-pdfebook][Substack/Newsletter to PDF/eBook]]
 - [[#audio-indexer-and-store][Audio Indexer and Store]]
 - [[#heavy_check_mark-github-action-to-announce-new-posts][:heavy_check_mark: GitHub Action to announce new posts]]
+- [[#ultimate-frisbee-statistics-and-highlight-reels-using-play-by-play-commentary][Ultimate Frisbee Statistics and Highlight Reels using play-by-play commentary]]
 :END:
 
 ** WhatsApp thread reader
@@ -111,6 +112,15 @@ fields from a static site's content repo, and creates a new tweet/update that
 can be posted to social media using existing GitHub actions.
 
 *UPDATE*: Created a [[https://github.com/punchagan/share-post-action][GitHub Action]] using GPT-4.
+
+** Ultimate Frisbee Statistics and Highlight Reels using play-by-play commentary
+
+Using YouTube captions of play-by-play commentary, would it be possible to
+generate statistics for a game? Would it be possible to also find highlights of
+a particular player or of the game, and generate a highlight reel?
+
+Maybe a quick thing to try with something like [[https://www.fixie.ai/][Fixie.ai]] or using ChatGPT to
+write the code as well.
 
 ** COMMENT Crowd-sourced stats and highlights for Ultimate games
 
