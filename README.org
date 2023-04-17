@@ -46,7 +46,8 @@ kind of text analysis.
 Using some smart topic/title generation to label the thread or topic would also
 be interesting.  Similarly, generating a summary would also be fun.  But,
 sending out all these texts to an external AI model isn't something that I
-wouldn't be comfortable doing.  Is there a browser local way to do this?
+wouldn't be comfortable doing.  Is there a browser local way to do this?  Looks
+like there's now an LLM that runs in the browser, [[https://simonwillison.net/2023/Apr/16/web-llm/][now]].
 
 It could also be interesting to locally mark some topics/threads as unread or
 important and to be able to come back to them later.
