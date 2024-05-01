@@ -123,6 +123,14 @@ a particular player or of the game, and generate a highlight reel?
 Maybe a quick thing to try with something like [[https://www.fixie.ai/][Fixie.ai]] or using ChatGPT to
 write the code as well.
 
+** Livability Index for Indian cities/towns
+
+[[https://smartnet.niua.org/sites/default/files/resources/Liveability%20Standards.pdf][Liveability Standards in Cities]] is a document by the Ministry of Urban
+Development.
+
+There's the [[http://web.archive.org/web/20220626072813/https://amplifi.mohua.gov.in/assets/html-landing/pdf/eol.pdf][Ease of Living assessment framework]] by the Ministry of Housing and
+Urban Affairs.
+
 ** COMMENT Crowd-sourced stats and highlights for Ultimate games
 
 This is a pre-cursor and training data for the automated idea.
