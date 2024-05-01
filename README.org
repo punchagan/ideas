@@ -15,18 +15,14 @@ feel free to send a PR with a link to the project.
 
 This repository is inspired by [[https://github.com/captn3m0/ideas/][captn3m0's ideas repository]].
 
-** Table of Contents
-:PROPERTIES:
-:TOC:      :include all :ignore this
-:END:
-
-:CONTENTS:
-- [[#whatsapp-thread-reader][WhatsApp thread reader]]
-- [[#substacknewsletter-to-pdfebook][Substack/Newsletter to PDF/eBook]]
-- [[#audio-indexer-and-store][Audio Indexer and Store]]
-- [[#heavy_check_mark-github-action-to-announce-new-posts][:heavy_check_mark: GitHub Action to announce new posts]]
-- [[#ultimate-frisbee-statistics-and-highlight-reels-using-play-by-play-commentary][Ultimate Frisbee Statistics and Highlight Reels using play-by-play commentary]]
-:END:
+** Table of Contents :TOC:
+  - [[#introduction][Introduction]]
+  - [[#whatsapp-thread-reader][WhatsApp thread reader]]
+  - [[#substacknewsletter-to-pdfebook][Substack/Newsletter to PDF/eBook]]
+  - [[#audio-indexer-and-store][Audio Indexer and Store]]
+  - [[#heavy_check_mark-github-action-to-announce-new-posts][:heavy_check_mark: GitHub Action to announce new posts]]
+  - [[#ultimate-frisbee-statistics-and-highlight-reels-using-play-by-play-commentary][Ultimate Frisbee Statistics and Highlight Reels using play-by-play commentary]]
+  - [[#livability-index-for-indian-citiestowns][Livability Index for Indian cities/towns]]
 
 ** WhatsApp thread reader
 
