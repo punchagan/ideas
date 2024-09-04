@@ -241,5 +241,5 @@ month. Cool!
 
 ** COMMENT Local Variables
 # Local Variables:
-# before-save-hook: org-make-toc
+# before-save-hook: toc-org-insert-toc
 # End:
