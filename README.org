@@ -127,6 +127,18 @@ Development.
 There's the [[http://web.archive.org/web/20220626072813/https://amplifi.mohua.gov.in/assets/html-landing/pdf/eol.pdf][Ease of Living assessment framework]] by the Ministry of Housing and
 Urban Affairs.
 
+** COMMENT AI based transcription system for first drafts of writing work
+
+Allow using an audio file for transcript first draft?
+
+** COMMENT Photo sharing with face recognition - local models
+
+https://github.com/Zeyi-Lin/HivisionIDPhotos
+
+** COMMENT Photo selection and picking best photos from a bunch of photos
+
+** COMMENT AI based voice companion
+
 ** COMMENT Crowd-sourced stats and highlights for Ultimate games
 
 This is a pre-cursor and training data for the automated idea.
