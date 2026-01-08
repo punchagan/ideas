@@ -23,6 +23,7 @@ This repository is inspired by [[https://github.com/captn3m0/ideas/][captn3m0's 
   - [[#heavy_check_mark-github-action-to-announce-new-posts][:heavy_check_mark: GitHub Action to announce new posts]]
   - [[#ultimate-frisbee-statistics-and-highlight-reels-using-play-by-play-commentary][Ultimate Frisbee Statistics and Highlight Reels using play-by-play commentary]]
   - [[#livability-index-for-indian-citiestowns][Livability Index for Indian cities/towns]]
+  - [[#pwa-for-unread-links-to-rss-using-github-actions][PWA for Unread Links to RSS using GitHub actions]]
 
 ** WhatsApp thread reader
 
@@ -126,6 +127,21 @@ Development.
 
 There's the [[http://web.archive.org/web/20220626072813/https://amplifi.mohua.gov.in/assets/html-landing/pdf/eol.pdf][Ease of Living assessment framework]] by the Ministry of Housing and
 Urban Affairs.
+
+
+** PWA for Unread Links to RSS using GitHub actions
+
+Create a simple PWA with a share target that accepts URLs with optional tags
+and description and stores it locally (if offline) or pushes it to a GitHub
+repo, if online. The GitHub repo uses a scheduled action to create an RSS feed
+for these articles. The RSS feed should contain the actual contents of the
+article extracted using something like [[https://github.com/mozilla/readability][readability]].
+
+The PWA can have a button to clear previous articles from the feed once the
+feed has been fetched to a feed reader.
+
+The creation of the RSS feed can be smart about dealing with different types of
+URLs - add transcripts for Youtube links, for instance, etc.
 
 ** COMMENT AI based transcription system for first drafts of writing work
 
