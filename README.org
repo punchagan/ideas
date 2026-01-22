@@ -143,6 +143,15 @@ feed has been fetched to a feed reader.
 The creation of the RSS feed can be smart about dealing with different types of
 URLs - add transcripts for Youtube links, for instance, etc.
 
+This can also be used to create a "share" feed (based on tags) that you can
+share with others for sharing stuff that has been already read by you. This
+could create a web of shared articles like Google Reader.
+
+The lists to-read and shared will kinda be public. Maybe people with GitHub pro
+account can have a private list. Or if they run everything locally in a
+container or something. This [[https://eleboog.com/posts/2025-09-07-sharefeed-chrome][chrome extension]] could possibly have some useful
+ideas to steal.
+
 ** COMMENT AI based transcription system for first drafts of writing work
 
 Allow using an audio file for transcript first draft?
